@@ -7,13 +7,13 @@ int main
 	{
 		a+=i;
 		if(a%3==0)
-		{
 			ptintf("fizz\n");
-		}
-		else if(a%5==0)
+		if(a%5==0)
 			printf("buzz\n");
-		else if(a%3==0&&a%5==0)
+		if(a%3==0&&a%5==0)
 			printf("fizzbuzz\n");
+		if(a%7==0)
+			printf("git\n");
 	}
 	return 0;
 }
